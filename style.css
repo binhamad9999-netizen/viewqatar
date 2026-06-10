@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Georgia, serif;
+  background-color: #fdf8f2;
+  color: #333;
+}
+
+header {
+  background-color: #8b1a1a;
+  color: white;
+  text-align: center;
+  padding: 40px 20px 20px;
+}
+
+header h1 {
+  font-size: 3rem;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+header .tagline {
+  font-style: italic;
+  font-size: 1.2rem;
+  margin-top: 8px;
+  color: #f5d9a0;
+}
+
+nav {
+  background-color: #5c1010;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 14px 20px;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: #f5d9a0;
+  text-decoration: none;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+nav a:hover {
+  color: white;
+}
+
+main {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+section {
+  margin-bottom: 60px;
+}
+
+section h2 {
+  font-size: 2rem;
+  color: #8b1a1a;
+  border-bottom: 2px solid #8b1a1a;
+  padding-bottom: 10px;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 20px;
+}
+
+.menu-item {
+  background: white;
+  border: 1px solid #e8d5b7;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+}
+
+.menu-item h3 {
+  font-size: 1.2rem;
+  color: #5c1010;
+  margin-bottom: 8px;
+}
+
+.menu-item p {
+  font-size: 0.9rem;
+  color: #666;
+  line-height: 1.5;
+  margin-bottom: 14px;
+}
+
+.price {
+  display: inline-block;
+  background-color: #8b1a1a;
+  color: white;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #3b0a0a;
+  color: #ccc;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+}
